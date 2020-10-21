@@ -56,6 +56,3 @@ def xml2dict(xml_path):
     """
     document = parse(xml_path)
     return parse_xml(document)
-
-import pprint
-pprint.pprint(xml2dict('TS_001_001_-0.0.xml'))
